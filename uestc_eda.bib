@@ -27,7 +27,6 @@
 @string{ieice="IEICE Trans. Fundamentals of Electronics, Communications and Computer Sciences"}
 @string{mcmc="IEEE Multi-Chip Module Conference"}
 @string{jrssb = "Journal of the Royal Statistical Society. Series B (Methodological)"}
-@string{assp = "IEEE Trans. Acoustics, Speech, and Signal Processing"}
 @string{tsp= "IEEE Trans. on Signal Processing"}
 @string{glsvlsi = "Proc. IEEE/ACM Int. Great Lakes Symp. on VLSI (GLSVLSI)"}
 @string{ieeeproc = "Proc. of the IEEE"}
@@ -35,9 +34,6 @@
 @string{asplos = "Proc. Int. Conf. on Architectural Support for Programming Languages and Operating Systems (ASPLOS)"}
 @string{isqed = "Proc. Int. Symp. on Quality Electronic Design (ISQED)"}
 @string{hpca = "Proc. IEEE Int. Symp. on High-Performance Computer Architecture (HPCA)"}
-@string{temm = "Proc. 1st International IEEE Workshop on Thermal Modeling and Management: Chips to Data Centers (TEMM)"}
-@string{sigops = "ACM SIGPLAN NOTICES "}
-@string{istfa = "Int. Symp. for Testing and Failure Analysis (ISTFA)"}
 @string{acmcomm="Communications of the ACM"}
 @string{socc="Proc. IEEE Int. System-on-Chip Conf. (SOCC)"}
 @string{icsict="Proc. Int. Conf. on Solid-State and Integrated Circuit Technology (ICSICT)"}
@@ -46,8 +42,7 @@
 @string{micro="IEEE MICRO"}
 @string{icml="Proc. Int. Conf. on Machine Learning (ICML)"}
 @string{cvpr="Proc. IEEE/CVF Conf. on Computer Vision and Pattern Recognition (CVPR)"}
-@string{dtc = "IEEE Design \& Test of Computers (DTC)"}
-@string{jetc = "ACM Journal on Emerging Technologies in Computing Systems (JETC)"}
+@string{tpds="IEEE Trans. on Parallel and Distributed Systems"}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % publications from our lab
@@ -170,7 +165,7 @@
 @inproceedings{MaWang:APCCAS'14,
  author = {Jian Ma and Hai Wang and Sheldon X.-D. Tan and Chi Zhang and He Tang},
  title = {Hybrid Dynamic Thermal Management Method with Model Predictive Control},
- booktitle = {IEEE Asia Pacific Conference on Circuits and Systems},
+ booktitle = {Proc. IEEE Asia Pacific Conference on Circuits and Systems},
  year = {2014},
  month = {November},
  location = {Okinawa, Japan},
@@ -470,7 +465,7 @@ pages = {187--192}
 @Article{Bartolini:TPDS'13,
   author =       {Andrea Bartolini and Matteo Cacciari and Andrea Tilli and Luca Benini},
   title =        {Thermal and Energy Management of High-Performance Multicores: Distributed and Self-Calibrating Model-Predictive Controller},
-  journal =      {IEEE Transactions on Parallel and Distributed Systems},
+  journal =      tpds,
   year =         {2013},
   volume =   {24},
   number =   {1},
@@ -2834,7 +2829,7 @@ year={2012}
 @article{Seo:TPDS'08,
   title={Energy Efficient Scheduling of Real-Time Tasks on Multicore Processors},
   author={Euiseong Seo and Jinkyu Jeong and Seonyeong Park and Joonwon Lee},
-  journal={IEEE Transactions on Parallel and Distributed Systems},
+  journal=tpds,
   year =    {2008},
   volume =  {19},
   number =  {11},
@@ -3369,14 +3364,17 @@ Publisher={Wiley},
 @article{Iranfar:TPDS'18,
   title={Machine Learning-Based Quality-Aware Power and Thermal Management of Multistream {HEVC} Encoding on Multicore Servers},
   author={Arman Iranfar and Marina Zapater and David Atienza},
-  journal={IEEE Transactions on Parallel and Distributed Systems},
+  journal=tpds,
+  volume={29},
+  number={10},
+  pages={2268--2281},
   year={2018}
 }
 
 @article{Zhang:TPDS'18,
   title={Machine Learning-Based Temperature Prediction for Runtime Thermal Management Across System Components},
   author={Kaicheng Zhang and Akhil Guliani and Seda and Memik Gokhan Ogrenci-Memik and Kazutomo Yoshii and Rajesh Sankaran and Pete  Beckman},
-  journal={IEEE Transactions on Parallel and Distributed Systems},
+  journal=tpds,
   volume={29},
   number={2},
   pages={405--419},
@@ -3582,7 +3580,7 @@ month ={Nov.},
 @article{Zhang:JETC'15,
   	title={Dynamic cache pooling in {3D} multicore processors},
   	author={Zhang, Tiansheng and Meng, Jie and Coskun, Ayse K},
-  	journal={ACM Journal on Emerging Technologies in Computing Systems (JETC)},
+  	journal={ACM Journal on Emerging Technologies in Computing Systems},
   	volume={12},
   	number={2},
   	pages={14},
@@ -3598,4 +3596,13 @@ month ={Nov.},
   	pages={76--98},
   	year={2017},
   	publisher={Elsevier}
+}
+
+@techreport{Greenhalgh:ARM'11,
+     title = {{Big.LITTLE} Processing with {ARM} {Cortex-A15} \& {Cortex-A7}},
+     author = {Peter Greenhalgh},
+     year = {2011},
+     institution = {ARM Limited},
+     month = September,
+     year = {2011},
 }
