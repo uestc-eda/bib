@@ -56,6 +56,10 @@
 @string{tie="IEEE Trans. on Industrial Electronics"}
 @string{cl="Computational Linguistics"}
 
+@string{nocs="Proc. IEEE/ACM Int. Symp. on Networks-on-Chip (NOCS)"}
+@string{osdi="Proc. USENIX. Conf. on Operating Systems Design and Implementation (OSDI)"}
+@string{hcs="IEEE Hot Chips Symposiu (HCS)"}
+@string{sc="Proc. Int. Conf. for High Performance Computing, Networking, Storage and Analysis"}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % publications from our lab
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -5187,6 +5191,7 @@ pages={11106--11115}
   month = {November},
 }
 
+<<<<<<< Updated upstream
 %  the start of modification by gxz
 @article{Zhang:MFAP'17,
   title={3D integration technologies: An overview},
@@ -5386,3 +5391,75 @@ pages={11106--11115}
   publisher={Springer}
 }
 %  the end of modification by gxz
+=======
+@inProceedings{Kim:ASPLOS'02,
+  author =       {Changkyu Kim and Doug Burger and Stephen W. Keckler},
+  title =        {An Adaptive, {Non-Uniform} Cache Structure for {Wire-Delay} Dominated {On-Chip} Caches},
+  booktitle =    asplos,
+  pages =    {211--222},
+  year =     {2002},
+  month = {October},
+  location = {San Jose, California},
+}
+
+@inProceedings{Kim:NOCS'11,
+  author =       {Hyungjun Kim and Pritha Ghoshal and Boris Grot and Paul V. Gratz and Daniel A. Jiménez},
+  title =        {Reducing {Network-on-Chip} energy consumption through spatial locality speculation},
+  booktitle =    nocs,
+  pages =    {233--240},
+  year =     {2011},
+  month = {May},
+  location = {Pittsburgh, Pennsylvania},
+}
+
+@inProceedings{Boyd-Wickizer:OSDI'08,
+  author =       {Silas Boyd-Wickizer and Haibo Chen and Rong Chen and Yandong Mao and Frans Kaashoek and Robert Morris and Aleksey Pesterev and Lex Stein and Ming Wu and Yuehua Dai and Yang Zhang and Zheng Zhang},
+  title =        {Corey: an operating system for many cores},
+  booktitle =    osdi,
+  pages =    {43--57},
+  year =     {2008},
+  month = {December},
+  location = {San Diego, California},
+}
+
+@inProceedings{Ramey:HCS'11,
+  author =       {Carl Ramey},
+  title =        {{TILE-Gx100 ManyCore} processor: Acceleration interfaces and architecture},
+  booktitle =    hcs,
+  pages =    {1--21},
+  year =     {2011},
+  month = {August},
+  location = {Stanford, CA, USA},
+}
+
+@inproceedings{Pathania:DATE'18,
+ author = {Anuj Pathania and J\"{o}rg Henkel},
+ title = {Task scheduling for many-cores with {S-NUCA} caches},
+ booktitle = date,
+ year = {2018},
+ month = {March},
+ location = {Dresden, Germany},
+ pages = {557--562}
+}
+
+@ARTICLE{Rapp:TOC'20,
+	author = {Martin Rapp and Mark Sagi and Anuj Pathania and Andreas Herkersdorf and J\"{o}rg Henkel},
+	journal = toc,
+	title = {{Power-} and {Cache-Aware Task Mapping} with {Dynamic Power Budgeting} for {Many-Cores}},
+	year = {2020},
+        month = {January},
+        volume = {69},
+        number = {1},
+        pages = {1--13},
+}
+
+@inProceedings{Carlson:SC'11,
+  author =       {Trevor E. Carlson and Wim Heirman and Lieven Eeckhout},
+  title =        {Sniper: Exploring the level of abstraction for scalable and accurate parallel multi-core simulation},
+  booktitle =    sc,
+  pages =    {1--12},
+  year =     {2011},
+  month = {November},
+  location = {Seattle, WA, USA},
+}
+>>>>>>> Stashed changes
